@@ -37,3 +37,16 @@ This is a **Streamlit-based web application** that generates **questions and ans
 
 ```bash
 pip install -r requirements.txt
+
+Create a .env file and add your Groq API key:
+
+env
+Copy
+Edit
+groq_api_key=your_groq_api_key_here
+Run the Streamlit app:
+
+bash
+Copy
+Edit
+streamlit run app.py
